@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <title>Justine Salinas — Portfolio</title>
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <nav id="navbar">
+      <div class="logo">JUSTINE.</div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- HOME -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="hero-label">Web Developer & Designer</p>
+          <h1>Hi, I'm<br /><span class="accent">Justine<br />Salinas</span></h1>
+          <p class="hero-desc">
+            An aspiring Web Developer and IT student at GRC. I build simple,
+            responsive, and creative websites as I grow my skills in coding and
+            design.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+              Contact Me
+            </button>
+            <button class="btn btn-outline" onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">
+              View Projects
+            </button>
+          </div>
+        </div>
+        <div class="hero-img">
+          <div class="img-frame">
+            <img src="profile.png" alt="Justine Salinas" />
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Who I Am</p>
+          <h2 class="section-title">About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am a consistent ICT Honor student who achieved the highest grades in
+              all my major subjects during my Senior High School years at MBASH Unit-1.
+              This experience strengthened my discipline, focus, and passion for technology.
+            </p>
+            <p style="margin-top: 16px;">
+              Now, I am more committed than ever to my chosen course in Information
+              Technology, where I continue to build my skills, expand my knowledge,
+              and grow as a future web developer.
+            </p>
+          </div>
+
+          <div class="about-details">
+            <!-- SKILLS -->
+            <div class="detail-block">
+              <h3 class="detail-title">Skills</h3>
+              <div class="skills">
+                <span>Web Design</span>
+                <span>Graphic Design</span>
+                <span>Photography</span>
+              </div>
+            </div>
+
+            <!-- EDUCATION -->
+            <div class="detail-block">
+              <h3 class="detail-title">Education</h3>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div>
+                    <p class="tl-degree">High School</p>
+                    <p class="tl-school">MBASH Unit-1</p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div>
+                    <p class="tl-degree">Senior High School — ICT</p>
+                    <p class="tl-school">MBASH Unit-1</p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-dot active"></div>
+                  <div>
+                    <p class="tl-degree">BS Information Technology <span class="badge">Current</span></p>
+                    <p class="tl-school">GRC</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">My Work</p>
+          <h2 class="section-title">Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-meta">
+              <span class="project-num">01</span>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+            </div>
+            <h3 class="project-title">Aurum Drive</h3>
+            <p class="project-desc">1st Semester Final Project — Car Dealership Webpage</p>
+            <div class="project-imgs">
+              <img src="Screenshot 2026-05-03 210847.png" alt="Aurum Drive screenshot 1" />
+              <img src="Screenshot 2026-05-03 210856.png" alt="Aurum Drive screenshot 2" />
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-meta">
+              <span class="project-num">02</span>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+            </div>
+            <h3 class="project-title">2025 Calendar</h3>
+            <p class="project-desc">Full-year calendar (Jan–Dec) with Philippine Holidays</p>
+            <div class="project-imgs">
+              <img src="Screenshot 2026-05-03 210700.png" alt="Calendar screenshot 1" />
+              <img src="Screenshot 2026-05-03 210721.png" alt="Calendar screenshot 2" />
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-meta">
+              <span class="project-num">03</span>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Font Awesome</span>
+              </div>
+            </div>
+            <h3 class="project-title">Icon Name</h3>
+            <p class="project-desc">Full name created using Font Awesome icons</p>
+            <div class="project-imgs">
+              <img src="Screenshot 2026-05-03 210803.png" alt="Icons screenshot" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Get In Touch</p>
+          <h2 class="section-title">Contact Me</h2>
+        </div>
+
+        <div class="contact-wrap">
+          <p class="contact-intro">
+            Have a project in mind or just want to say hello? Feel free to send me a message.
+          </p>
+          <form class="contact-form" onsubmit="handleSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Tell me about your project…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2026 Justine Salinas. All rights reserved.</p>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      const menuToggle = document.getElementById('menuToggle');
+      const navLinks = document.getElementById('navLinks');
+      menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('open');
+        menuToggle.classList.toggle('active');
+      });
+
+      // Close menu on link click
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('open');
+          menuToggle.classList.remove('active');
+        });
+      });
+
+      // Navbar scroll effect
+      window.addEventListener('scroll', () => {
+        document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 40);
+      });
+
+      // Scroll-reveal
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+      }, { threshold: 0.12 });
+      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+      // Form submit
+      function handleSubmit(e) {
+        e.preventDefault();
+        const btn = e.target.querySelector('button[type="submit"]');
+        btn.textContent = 'Sent ✓';
+        btn.style.background = '#22c55e';
+        btn.style.color = '#fff';
+        setTimeout(() => { btn.textContent = 'Send Message'; btn.style.background = ''; btn.style.color = ''; }, 3000);
+        e.target.reset();
+      }
+    </script>
+  </body>
+</html>
